@@ -38,23 +38,23 @@ cd Python_RAG
 ```
 
 ### 2 Create a .env file
-
+```bash
 GROQ_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxx
-
+```
 
 ### 3 Build the Docker image
-
+```bash
 docker build -t medibot-app .
-
+```
 ### 4 Run the Docker container locally
-
+```bash
 docker run -p 8501:8501 --env-file .env medibot-app
-
+```
 ### 5 Open the chatbot in your browser
-
+```bash
 http://localhost:8501
-
+```
 ### 6 Optional: Run in background mode
-
+```bash
 docker run -d -p 8501:8501 --env-file .env medibot-app
-
+```
