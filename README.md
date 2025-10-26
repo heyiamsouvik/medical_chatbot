@@ -32,7 +32,7 @@ Follow these steps to run **MediBot** locally:
 ### 1️. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/heyiamsouvik/medical_chatbot.git
 cd Python_RAG
 ```
 
