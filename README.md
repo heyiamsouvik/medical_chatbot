@@ -38,7 +38,7 @@ cd Python_RAG
 
 ### 2. Create a .env file
 
-Get GROQ coud api key from here : https://console.groq.com/keys
+Get GROQ cloud api key from here : https://console.groq.com/keys
 ```bash
 GROQ_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
